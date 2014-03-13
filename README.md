@@ -1,5 +1,5 @@
 
-This is the source used for [my website](/). I use [Jekyll](http://jekyllrb.com/) to generate this static site. The theme I use is a modified version of [Hyde](hyde.getpoole.com).
+This is the source used for [my website](http://www.malolans.com). I use [Jekyll](http://jekyllrb.com/) to generate this static site. The theme I use is a modified version of [Hyde](hyde.getpoole.com).
 
 ## Licensing
 
