@@ -1,64 +1,55 @@
-<! -- sidebar.html -->
-<header class="sidebar-header" role="banner">
-	<a href="{{ site.BASE_PATH }}/">
-		<img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
-	</a>
-	<h4 class="title">
-        <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
-    </h4>
-</header>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h2>{{ site.title }}</h2>
+      <p class="sidebar-description">{{ site.description }}</p>
+    </div>
 
-{% if site.author.bio %}
-<div id="bio" class="text-center">
-	{{ site.author.bio }}
-</div>
-{% endif %}
-
-<div id="contact-list" class="text-center">
-	<ul class="list-unstyled list-inline">
+    <ul class="sidebar-nav">
+      <li>
+        <a href="/">
+        <i class="fa fa-home fa-lg fa-fw"></i>
+        </a>
+      </li>
+      <li>
+		<a href="{{ site.BASE_PATH}}/{{ site.links.about }}">
+		<i class="fa fa-info fa-lg fa-fw"></i>
+		</a>
+	  </li>
+    
 		{% if site.author.github %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://github.com/{{ site.author.github }}">
-				<i class="fa fa-github-alt fa-lg fa-fw"></i>
-			</a>
-		</li>
+	  <li>
+		<a href="https://github.com/{{ site.author.github }}">
+		<i class="fa fa-github-alt fa-lg fa-fw"></i>
+		</a>
+	  </li>
+	</ul>  
+	<ul class="sidebar-nav">
 		{% endif %}
 		{% if site.author.twitter %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://twitter.com/{{ site.author.twitter }}">
-				<i class="fa fa-twitter fa-lg fa-fw"></i>
-			</a>
-		</li>
+	  <li>
+		<a href="https://twitter.com/{{ site.author.twitter }}">
+		<i class="fa fa-twitter fa-lg fa-fw"></i>
+		</a>
+  	  </li>
 		{% endif %}
 		{% if site.author.email %}
-		<li>
-			<a class="btn btn-default btn-sm" href="mailto:{{ site.author.email }}">
-				<i class="fa fa-envelope fa-lg fa-fw"></i>
-			</a>
-		</li>
-		{% endif %}
-	</ul>
-	<ul class="list-unstyled list-inline">
-		<li>
-			<a class="btn btn-default btn-sm" href="{{ site.BASE_PATH}}/{{ site.about_path }}">
-				<i class="fa fa-info fa-lg fa-fw"></i>
-			</a>
-		</li>
+	  <li>
+		<a href="mailto:{{ site.author.email }}">
+		<i class="fa fa-envelope fa-lg fa-fw"></i>
+		</a>
+	  </li>
+    	{% endif %}
 		{% if site.author.linkedin %}
-		<li>
-			<a class="btn btn-default btn-sm" href="https://linkedin.com/{{ site.author.linkedin }}">
-				<i class="fa fa-linkedin fa-lg fa-fw"></i>
-			</a>
-		</li>
+	  <li>
+        <a href="https://linkedin.com/{{ site.author.linkedin }}">
+		<i class="fa fa-linkedin fa-lg fa-fw"></i>
+		</a>
+	  </li>
 		{% endif %}
-		<li>
-			<a class="btn btn-default btn-sm" href="{{ site.BASE_PATH }}/{{ site.rss_path }}">
-				<i class="fa fa-rss fa-lg fa-fw"></i>
-			</a>
-		</li>
 	</ul>
+
+
+    <p class="sidebar-description">&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+  </div>
 </div>
-
-	
-
-<! -- sidebar.html end -->

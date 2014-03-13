@@ -1,41 +1,26 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-pygments: true
+# Permalinks
+permalink:        pretty
 
-title: Malolan Santhanakrishnan
-description: Personal Bio
+# Setup
+title:            Malolan Santhanakrishnan
+tagline:          '[[Blog alloc] init]'
+description:      'Software Quality Engineer by the day, iOS Developer by the night!'
+
 author:
-  name: Malolan Santhanakrishnan
-  email: malolan.santhanakrishnan@gmail.com
-  github: malolans
-  twitter: malolan_s
-  linkedin: profile/view?id=19146420
-  resume: some file
-  bio: Software Quality Engineer by the day, iOS Developer by the night!
-  email_md5:
-
-rss_path: feed.xml
-categories_path: categories.html
-tags_path: tags.html
-about_path: about.html
-
-BASE_PATH: http://malolans.github.io
-
-# All links will be namespaced by BASE_PATH if defined.
-# Links in your website should always be prefixed with {{ site.BASE_PATH }}
-# Do not put a "/" at the end of the url.
-#
-# CNAME (http://yourcustomdomain.com)
-#   DO NOT SET BASE_PATH JUST LEAVE IT BLANK 
-#   (urls will be prefixed with "/" and work relatively)
-#
-# GitHub Pages (http://username.github.io)
-#   DO NOT SET BASE_PATH JUST LEAVE IT BLANK 
-#   (urls will be prefixed with "/" and work relatively)
-#
-# GitHub Project Pages (http://username.github.io/project-name)
-#  A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
-#  REQUIRED! Set BASE_PATH to "http://username.github.io/project-name"
+  name:           'Malolan Santhanakrishnan'
+  email:          malolan.santhanakrishnan@gmail.com
+  github:         malolans
+  twitter:        malolan_s
+  linkedin:       profile/view?id=19146420
+  
+links:
+  rss:            feed.xml
+  categories:     categories.html
+  tags:           tags.html
+  about:          about/index.html
+  
+paginate:         5
