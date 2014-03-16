@@ -24,3 +24,5 @@ links:
   about:          about/index.html
   
 paginate:         5
+
+exclude:          [Rakefile]
