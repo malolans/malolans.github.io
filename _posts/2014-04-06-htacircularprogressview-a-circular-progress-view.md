@@ -4,7 +4,7 @@ title: "HTACircularProgressView: A Circular Progress View"
 categories:
 tags:
 ---
-I was looking at the iOS App Store app downloading an app and noticed that Apple had its own version of the Circular Progress Bar. I have implemented it and this is the screen shot of the control in action.
+I was downloading an app using the iOS App Store app. I noticed that Apple had its own version of the Circular Progress Bar. I have implemented it and this is the screen shot of the control in action.
 
 ![Screen Shot](https://raw.githubusercontent.com/malolans/HTACircularProgressView/master/ScreenCap.gif)
 
