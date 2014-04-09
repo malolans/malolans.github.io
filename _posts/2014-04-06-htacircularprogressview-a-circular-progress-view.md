@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "HTACircularProgressView: A Circular Progress View"
-tags: UIKit Custom-Control
+categories:
+tags:
 ---
 I was downloading an app using the iOS App Store app. I noticed that Apple had its own version of the Circular Progress Bar. I have implemented it and this is the screen shot of the control in action.
 
