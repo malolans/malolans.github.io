@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tap to Reveal in UIUITabelViewCell" 
+tags: UITableview Tap-To-Reveal
 ---
 One of the most versatile UIViews in iOS SDK is the `UITableView`. It is really useful to display a list of items. If a detailed view of the item is required, a details `UIView` is created and is pushed on top of the exiting view. This works most of the time. On certain occasions the item being in a position is important and pushing a new view results in a loss of context. So I wanted to figure out if the height of the `UITableViewCell` can be changed based on its content. This would achieve a **Tap to Reveal** animation as shown below.
 
