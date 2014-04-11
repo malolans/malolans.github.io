@@ -2,7 +2,6 @@
   border: 1px solid #ddd;
   overflow: hidden;
 }
-.highlight { background-color: #ffffcc }
 .highlight .c { color: #586E75 } /* Comment */
 .highlight .err { color: #93A1A1 } /* Error */
 .highlight .g { color: #93A1A1 } /* Generic */
