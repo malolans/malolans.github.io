@@ -1,6 +1,6 @@
 # Dependencies
 markdown:         redcarpet
-pygments:         true
+highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
@@ -26,3 +26,6 @@ links:
 paginate:         5
 
 exclude:          [Rakefile]
+
+gems:
+- jekyll-sitemap
