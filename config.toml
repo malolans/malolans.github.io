@@ -33,11 +33,11 @@ publishDir = "docs"
     weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/username/"
+    url = "https://twitter.com/malolan_s/"
     name = "fab fa-twitter"
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
+    url = "https://www.linkedin.com/in/malolan-santhanakrishnan-1304b46/"
     name = "fab fa-linkedin"
     weight = 4
