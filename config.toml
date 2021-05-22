@@ -1,7 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://www.malolans.com/"
 languageCode = "en-us"
 title = "Welcome"
 theme = "minimal"
+publishDir = "docs"
 
 [params]
     author = "Malolan Santhankrishnan"
