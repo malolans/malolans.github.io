@@ -1,6 +1,6 @@
 baseURL = "https://www.malolans.com"
 languageCode = "en-us"
-title = "Malolan Santhankrishnan"
+title = "Welcome!"
 theme = "minimal"
 publishDir = "docs"
 
