@@ -7,12 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://www.malolans.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello!</title>
+      <title></title>
       <link>https://www.malolans.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://www.malolans.com/about/</guid>
-      <description>I am a people focused engineering leader, who is passionate about building great products. Currently I am part of the team building InsightConnect at Rapid7.</description>
+      <description>Introduction Hello! I am Malolan Santhanakrishnan. I am based out of Boston, MA. I am a people focused engineering leader, who is passionate about building great products. I believe that a company can build a great product by creating a culture that nurtures cross collaboration across Product Managers, User Experience Designers and Developers.
+Rapid7 I like working on products that has a pronounced impact of people&amp;rsquo;s lives. Security industry offers a great opportunity to have the kind of impact I would like to have.</description>
     </item>
     
   </channel>
